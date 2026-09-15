@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+      name="marshall daly"
+      content="and Bootstrap contributors"
     />
     <meta name="generator" content="Astro v5.13.2" />
     <title>Civic Tech Fall '26 · Marshall Daly</title>
@@ -79,6 +79,72 @@
         --bs-btn-active-bg: #5a23c8;
         --bs-btn-active-border-color: #5a23c8;
       }
+
+         body {
+  
+    font-size: 10.5pt;
+    line-height: 1.15;
+    color: #000;
+    max-width: 468pt;
+    margin: 0 auto;
+    padding: 72pt;
+    background-color: #fff;
+  }
+
+  h1 {
+    font-size: 13.5pt;
+    font-weight: 700;
+    margin: 0 0 12pt;
+  }
+
+  h2 {
+    font-size: 10.5pt;
+    font-weight: 700;
+    margin: 24pt 0 6pt;
+  }
+
+  p {
+    margin: 0 0 11pt;
+    text-align: left;
+  }
+
+  p.indent {
+    text-indent: 36pt;
+  }
+
+  p.doc-meta {
+    margin-bottom: 24pt;
+  }
+
+  blockquote {
+    font-style: italic;
+    margin: 0 0 11pt;
+    padding: 0;
+  }
+
+  figure {
+    margin: 11pt 0;
+    text-align: left;
+  }
+
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    font-style: italic;
+  }
+
+  p.reference {
+    margin: 0 0 11pt;
+  }
+
+  a {
+    color: #1155cc;
+    text-decoration: underline;
+  } 
+      
     </style>
   </head>
   <body>
@@ -144,22 +210,39 @@
         </a>
       </header>
       <main>
-        <h1 class="text-body-emphasis">Reading Response 1</h1>
-        <p class="fs-5 col-md-8">
-          Intro something something about my homewrok. 
-        </p>
-        <p>
-          To come... <br>
-          Week number and date<br>
-Reading/project title and link<br>
-One relevant image, diagram, screenshot, map, or visualization<br>
-300–500 words responding to the week's prompt<br>
-At least one specific idea or quotation paraphrased from the reading<br>
-A short connection to your semester civic-technology project<br>
 
-        </p>
+          <p class="doc-meta">Week 1 - September 14, 2026</p>
+
+          <h1>Civic Technology Critique</h1>
+
+          <blockquote>&ldquo;What makes technology &ldquo;civic,&rdquo; &ldquo;social impact,&rdquo; or &ldquo;public interest&rdquo; technology rather than simply software?&rdquo;</blockquote>
+
+          <p class="indent">Having worked professionally in spaces closely adjacent to &ldquo;civic tech&rdquo; I will attempt to define civic tech, social impact tech, and public interest tech, through the lens of three projects of which I&rsquo;ve been a part: research at &ldquo;Civic Tech DC;&rdquo; social impact product development for CommCare (<a href="https://commcare.dimagi.com/">commcare.dimagi.com</a>); and experimentation at the City of Boston&rsquo;s <a href="https://www.boston.gov/departments/emerging-technology">Office of Emerging Technology</a>. All three of these efforts were united by a goal to deliver value to the &ldquo;public&rdquo; by using technology as a <strong>method &ndash;</strong> one which helped us deliver that value in ways that would be impossible, or at least very hard, to do without new technology. However, as I&rsquo;ll show below, each of these efforts defined &ldquo;value&rdquo; in different ways, and the people and communities that make up &ldquo;the public&rdquo; differ greatly in each situation.</p>
+
+          <p class="indent">First, civic technology &ndash; in my experience, civic tech is not about building software that is used by or in government. Instead, it is about leveraging technology resources like software or data to shine a light on government&rsquo;s work or the needs of residents. As McGuinness and Schank point out, the Civic Tech space blossomed in the early 2000s with the rise of Open Data published by American municipalities. Many civic technologists leveraged this newly available data to show where governments were failing to deliver basic services to residents, through novel data analysis, engaging visualizations and data-forward story telling. I witnessed this firsthand while participating in Civic Tech DC&rsquo;s meetups in 2024. One of the group&rsquo;s members, Pete Rodrigue, produced an analysis of Open Data DC&rsquo;s traffic enforcement data to answer the question: &ldquo;What impact have DC&rsquo;s Automated Enforcement Traffic Cameras had on the city&rsquo;s road safety?&rdquo;</p>
+
+          <figure>
+            <img src="../image/GGWash_Graph.png" alt="graph" width="624" height="621">
+            <figcaption>Example graph from Rodrigue&rsquo;s analysis.</figcaption>
+          </figure>
+
+          <p>Rodrigue&rsquo;s analysis and subsequent <a href="https://ggwash.org/view/97212/smile-youre-on-camera-a-deep-dive-on-automated-traffic-enforcement-data">OpEd article</a> leveraged a form of government transparency &ndash; in this case, Open Data DC &ndash; to analyze a topic of intense political interest and provide policy insights that were publicly-beneficial. In the case of Rodrigue&rsquo;s work with Civic Tech DC, what makes his use of technology &ldquo;civic&rdquo; is that it is contributing knowledge to the public sphere, on topics of immediate relevance to DC residents and politicians alike.</p>
+
+          <p class="indent">Social impact technology is, for me, harder to define &ndash; it brings to mind technical folks working for, or with, nonprofit institutions. Perhaps on topics that governments and the private sector have failed to address. In the late 2010s, I worked at a &ldquo;tech-for-good social enterprise&rdquo; called Dimagi, designing their <em>CommCare</em> software (a medical record system designed for low-resource communities without internet connectivity). The assumption in this space, which was crowded with Dimagi&rsquo;s competitors prior to the demise of USAID, was that governments in developing countries were not capable of producing (or procuring) effective health technology themselves, and so it needed to be built by outside consultants. Yet this work was funded by large donors, usually based in North America and Europe, meaning our tech team was accountable to the project funders &ndash; e.g. the Gates Foundation &ndash; not the governments deploying our medical records technology, nor the frontline workers using it in the field. Herein lies the inherent tension of &ldquo;social impact tech&rdquo; for me: ostensibly, the problem we at Dimagi were addressing was that frontline health workers lack good medical records tools. But the real issue we were touching on was the under-resourced governments that lacked the people or funding to manage their own health records system. The solution we developed, CommCare, was an excellent fit for the technical problem of medical records in low-resource settings; it was a terrible way, however, to address the latter issue of under-resourced governments. During my time at Dimagi, I often struggled with McGueiness and Harsh&rsquo;s notion that &ldquo;new tools won&rsquo;t fix a broken policy or a convoluted process, just as overlaying a microprocessor on top of a Rube Goldberg device won&rsquo;t make the device more efficient&rdquo; (Preface, xiii). Yet our technical team at Dimagi continued down this track because our success was, ultimately, judged by our funders rather than the frontline health workers or government IT managers that might have guided us in a different direction.</p>
+
+          <p class="indent">Public interest technology is the label under which I feel most professionally aligned. This summer I was a Technology Fellow at the City of Boston&rsquo;s Office of Emerging Technology. Our team developed tech-based products and services for the City&rsquo;s transportation planners and engineers. We chose projects that were less about IT-related services, in favor of those very focused on helping City staff better understand Boston residents and deliver to those residents better mobility insights and transportation data. Working within government at City Hall had two important impacts. First, because our work came from within municipal government, it was appointed officials &ndash; in our case Boston&rsquo;s CIO &ndash; who were ultimately accountable for the consequences (good or bad) of our work. The result was that our team worked extensively to ensure privacy protections were honored and legal guidance was followed, while plans were shared widely with many city departments and residents alike. Second, working within government allowed us to deeply understand the problem space and gave us direct provenance over the solutions we proposed &ndash; in a way that Dimagi never could (donors determined the problem) and that Civic Tech could only hope for (Civic Tech DC excelled at diagnosing the issues, but could not roll out new government tools or services).</p>
+
+          <p class="indent">In summary, having touched each of these three fields personally, I would propose the following: Civic Tech is advocate-oriented, intended to shine a light (from the outside) on issues or opportunities related to government and the residents it serves. This hyper focus, however, leads Civic Tech to occasionally suffer from a narrow mindset defined by whoever is driving the project. Conversely, Social Impact Tech is intensely user and community-focused, but relies on outside talent or funding that can misdiagnose issues or design elegant solutions to superficial problems. Lastly, public interest tech is driven from within government, and consequently must deal with all the layers of bureaucracy that comes with it. But because of those layers, it has the potential to deliver at a much larger scale and with higher impact and greater durability.</p>
+
+          <h2>References</h2>
+
+          <p class="reference">Costanza-Chock, Sasha, Maya Wagoner, Berhan Taye, Caroline Rivas, Chris Schweidler, Georgia Bullen, et al. (2018). <em>#MoreThanCode: Practitioners Reimagine the Landscape of Technology for Justice and Equity</em>.</p>
+
+          <p class="reference">Tara Dawson McGuinness &amp; Hana Schank, <em>Power to the Public: The Promise of Public Interest Technology</em> (Princeton University Press, 2021).</p>
+
 
       </main>
+
       <footer class="pt-5 my-5 text-body-secondary border-top">
         Created by Marshall Daly, DUSP MCP &copy; 2026
       </footer>
