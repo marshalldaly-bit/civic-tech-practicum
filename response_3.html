@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Week 3 response: comparing Massachusetts and Boston ADU regulations, and where civic technology can help homeowners." />
+    <meta name="author" content="Marshall Daly" />
+    <title>From Zoning Rules to a Civic Technology Tool · Marshall Daly</title>
+    <link
+      rel="canonical"
+      href="https://marshalldaly-bit.github.io/civic-tech-practicum/"
+    />
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#922C96" />
+    <style>
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .btn-bd-primary {
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: #922C96;
+        --bs-btn-border-color: #922C96;
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6D1370;
+        --bs-btn-hover-border-color: #6D1370;
+        --bs-btn-focus-shadow-rgb: 146, 44, 150;
+        --bs-btn-active-color: var(--bs-white);
+        --bs-btn-active-bg: #6D1370;
+        --bs-btn-active-border-color: #6D1370;
+      }
+
+
+      blockquote {
+        font-style: italic;
+        margin: 5 5 11pt;
+        padding: 0;
+        color: #454545;
+      }
+
+      figure {
+        margin: 11pt 0;
+        text-align: left;
+      }
+
+      figure img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      figcaption {
+        font-style: italic;
+      }
+
+      p.reference {
+        margin: 0 0 11pt;
+      }
+
+      a {
+        color: #922C96;
+        text-decoration: underline;
+      } 
+          
+    </style>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="arrow-right-circle" viewBox="0 0 16 16">
+        <path
+          d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+        ></path>
+      </symbol>
+      <symbol id="book" viewBox="0 0 16 16">
+          <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+      </symbol>
+    </svg>
+    <div class="col-lg-8 mx-auto p-4 py-md-5">
+      <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+        <a
+          href="index.html"
+          class="d-flex align-items-center text-body-emphasis text-decoration-none"
+        >
+          <svg
+            class="bi me-2"
+            width="32"
+            height="32"
+            role="img"
+            aria-label="Book"
+          >
+            <use xlink:href="#book"></use>
+          </svg>
+          <span class="fs-4">Civic Tech Fall '26 - 11.458</span>
+        </a>
+      </header>
+      <main>
+
+          <p class="doc-meta"><b>Week 3  |  September 28, 2026</b></p>
+
+          <h1>From Zoning Rules to a Civic Technology Tool</h1>
+
+          <h2>Comparing Massachusetts and Boston ADU Regulations</h2>
+
+          <p>The Commonwealth&rsquo;s Affordable Homes Act does have some similarities with Boston&rsquo;s ADU-related zoning code. While both the state and city provide zoning for by-right ADU development, they share the hard requirement that ADU developers follow all preexisting building and fire codes, and in both jurisdictions ADU construction requires a building permit. Similarly, local zoning overlays constrain the by-right ADU law in both state and city contexts (for example, state regulations allow towns to set stricter design and dimensional standards in historic districts, and likewise the City of Boston layers on additional design reviews for landmark zones). Another similarity is the dimensional requirements and restrictions placed on ADUs. Boston and the Commonwealth are aligned on a limit of 900 square feet or a proportion of the main house, whichever is smaller &ndash; with the state law specifying the smaller of 900 sq ft or half the principal dwelling&rsquo;s gross floor area.</p>
+
+          <p>The differences, however, are many between Boston&rsquo;s ADU laws and the state&rsquo;s Affordable Homes Act. Most prominently, the state law is far more flexible on where ADUs can be built: any district allowing single-family homes (or greater) must permit ADUs by right, while Boston restricts ADUs in residential zones to internal-only (with Mattapan as the notable exception, allowing detached ADUs in residential areas). The state law is also more flexible on the matter of who can live in an ADU &ndash; owner-occupancy requirements are prohibited statewide, but they are required in Boston&rsquo;s code.</p>
+
+          <h2>What Makes These Rules Difficult to Navigate?</h2>
+
+          <p>Approaching ADU development from the perspective of a homeowner, three core challenges stand out.</p>
+
+          <p>First, the complexity of zoning restrictions, code requirements, and &ldquo;special district&rdquo; ordinances makes it very challenging to answer the basic question, &ldquo;can I build an ADU on my lot?&rdquo; The byzantine and bespoke nature of local zoning means that a decisive answer to this question requires a homeowner to spend hours finding and sifting through zoning texts, amendments, and overlay districts. What&rsquo;s more, zoning maps and text occasionally contradict themselves, making interpretation impossible without consulting the relevant city office. If a town&rsquo;s zoning allows homeowners to consider an ADU, highly specific and jargon-filled building and fire code requirements must then be deciphered and interpreted to inform your ADU&rsquo;s physical design. For this latter process, homeowners will likely need to consult a professional architect or engineer to ensure ADU plans align with these codes before applying for building permits.</p>
+
+          <p>Second, the approval process for ADU permits is uneven and highly unpredictable. What happens after you, the homeowner, submit your ADU plans to the city or town planning clerk? Most towns provide little guidance and no transparency on this process &ndash; one that can range from a few weeks to many months &ndash; and often longer when local septic, wetlands, and stormwater rules are at play. During this wait, homeowners might reasonably wonder where their submission is in the approval process, how many steps are left, and what has been reviewed so far. In these situations, the ADU applicant has no ability to answer such questions during the weeks/months long wait, and must simply wait to hear word from city or town officials. Finally, what happens if the ADU permit application is denied? Homeowners without an architect or builder on retainer &ndash; so, most of them! &ndash; are left to problem-solve and hope their next attempt returns a better result.</p>
+
+          <p>Third, the financing options for ADU development are not only opaque but also high risk. ADUs cost hundreds of thousands of dollars to build, and the vast majority of Commonwealth residents don&rsquo;t have this much money lying dormant in their savings account. Construction financing is a necessity for most potential ADU developers, and luckily in 2026 there is a small-but-growing marketplace for financing ADUs with mortgage-based loan products. But all of these financing products are complex by nature and extremely hard to grok for anyone lacking a CPA. What&rsquo;s more, these products involve non-trivial financial risk &ndash; especially for lower-income homeowners whose net worth is largely tied to the equity they&rsquo;ve built up in their home. This complexity and risk often shows up in ADU cost calculators and financing tools in the form of prominent disclaimers, like in Massachusetts&rsquo;s own <a href="https://goclean.masscec.com/adu/adu-wizard/">ADU financial calculator</a> that warns: &ldquo;these numbers are rough guidance and may differ from actual financing.&rdquo;</p>
+
+          <h2>What Can Our Class Do?</h2>
+
+          <p>Given what I&rsquo;ve heard and read over the past few weeks &ndash; complemented by my own experience attempting to permit an ADU in Washington D.C. &ndash; I do not think ADU development will ever be a &ldquo;self-service&rdquo; process, facilitated entirely by online tools. The dollar values are too high, the financial risks too great, and the physical and geometric constraints too restrictive for us to think that a middle- or low-income homeowner could &ndash; or should &ndash; execute the ADU development process without the help of professionals, be they designers, lenders, or builders.</p>
+
+          <p>What does that mean for our class? Rather than building a tool that gives property owners a definitive &ldquo;yes&rdquo; or &ldquo;no&rdquo; on what can be built, where, and how to finance it, we should instead provide a solution that helps normal (non-expert) property owners connect with the professionals that are a critical, and valuable, part of the development process. I suggest this alternative route because we know, based on our experiences using the ADU Wizards employed by <a href="https://goclean.masscec.com/adu/adu-wizard/">Massachusetts</a> and <a href="https://maineaduguide.org/resources/adu-wizard/">Maine</a>, that a &ldquo;decoder&rdquo; tool that interprets zoning bylaws or financing options will still require the homeowner to engage with professionals to execute a real ADU project.</p>
+
+          <p>This modified approach suggests we broaden our scope and look at the full ecosystem of people who are involved in the start-to-finish process of constructing an ADU in Massachusetts: not only homeowners, but also designers, lenders, town officials, and builders. This &ldquo;ecosystem&rdquo; approach would surface many potential civic technology projects that make the ADU development process&hellip;</p>
+
+          <ol type="a">
+            <li><p><strong>Simpler</strong> &ndash; we might build a community platform that helps connect homeowners with a community of designers and builders who understand small lots and work at modest (ADU-appropriate) scale. Connecting to these people could provide homeowners a lifeline to the hands-on consultation that is required for nearly every ADU project.</p></li>
+            <li><p><strong>More predictable</strong> &ndash; we might build tooling that empowers homeowners to connect directly with the local officials who administer ADU rules and approve permits. This route could focus on bringing transparency to the permit approval process so applicants know where they stand in the process, or it could look at building tools which reduce the internal friction town officials face when executing the ADU approval process.</p></li>
+            <li><p><strong>Financeable</strong> &ndash; we might build a rich database of completed ADU projects that lenders can use to inform their underwriting process for ADU projects, and that appraisers could leverage to understand the real value created by ADU additions. More user research is needed to understand the information hurdles that lenders and appraisers face today, but a potential class project could construct a portfolio of ADU comparables (existing projects) with professionally certified pro formas that de-risk financing and appraising for ADU projects.</p></li>
+          </ol>
+
+            <br>
+
+          <a class="btn btn-bd-primary" href="https://marshalldaly-bit.github.io/civic-tech-practicum/" role="button">Return Home</a>
+
+      </main>
+
+      <footer class="pt-5 my-5 text-body-secondary border-top">
+        Created by Marshall Daly, MIT DUSP, MCP '27 | September 2026
+      </footer>
+    </div>
+    <script
+      src="assets/dist/js/bootstrap.bundle.min.js"
+     
+    ></script>
+  </body>
+</html>
