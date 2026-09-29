@@ -3,81 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta
-      name="marshall daly"
-      content="and Bootstrap contributors"
-    />
-    <meta name="generator" content="Astro v5.13.2" />
-    <title>Civic Tech Fall '26 · Marshall Daly</title>
+    <meta name="description" content="Week 1 reading response: what makes technology civic, social impact, or public interest technology." />
+    <meta name="author" content="Marshall Daly" />
+    <title>Civic Technology Critique · Marshall Daly</title>
     <link
       rel="canonical"
       href="https://marshalldaly-bit.github.io/civic-tech-practicum/"
     />
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <meta name="theme-color" content="#712cf9" />
+    <meta name="theme-color" content="#922C96" />
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: #0000001a;
-        border: solid rgba(0, 0, 0, 0.15);
-        border-width: 1px 0;
-        box-shadow:
-          inset 0 0.5em 1.5em #0000001a,
-          inset 0 0.125em 0.5em #00000026;
-      }
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
       .bi {
         vertical-align: -0.125em;
         fill: currentColor;
       }
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
       .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
         --bs-btn-font-weight: 600;
         --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-bg: #922C96;
+        --bs-btn-border-color: #922C96;
         --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
+        --bs-btn-hover-bg: #6D1370;
+        --bs-btn-hover-border-color: #6D1370;
+        --bs-btn-focus-shadow-rgb: 146, 44, 150;
+        --bs-btn-active-color: var(--bs-white);
+        --bs-btn-active-bg: #6D1370;
+        --bs-btn-active-border-color: #6D1370;
       }
 
 
@@ -107,38 +58,13 @@
       }
 
       a {
-        color: #1155cc;
+        color: #922C96;
         text-decoration: underline;
       } 
           
     </style>
   </head>
   <body>
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-      <symbol id="check2" viewBox="0 0 16 16">
-        <path
-          d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
-        ></path>
-      </symbol>
-      <symbol id="circle-half" viewBox="0 0 16 16">
-        <path
-          d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"
-        ></path>
-      </symbol>
-      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-        <path
-          d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
-        ></path>
-        <path
-          d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
-        ></path>
-      </symbol>
-      <symbol id="sun-fill" viewBox="0 0 16 16">
-        <path
-          d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
-        ></path>
-      </symbol>
-    </svg>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="arrow-right-circle" viewBox="0 0 16 16">
         <path
@@ -148,19 +74,11 @@
       <symbol id="book" viewBox="0 0 16 16">
           <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
       </symbol>
-      <symbol id="bootstrap" viewBox="0 0 118 94">
-        <title>Bootstrap</title>
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-        ></path>
-      </symbol>
     </svg>
     <div class="col-lg-8 mx-auto p-4 py-md-5">
       <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
         <a
-          href="/"
+          href="index.html"
           class="d-flex align-items-center text-body-emphasis text-decoration-none"
         >
           <svg
@@ -183,9 +101,9 @@
 
           <blockquote>&ldquo;What makes technology &ldquo;civic,&rdquo; &ldquo;social impact,&rdquo; or &ldquo;public interest&rdquo; technology rather than simply software?&rdquo;</blockquote>
 
-          <p class="indent">Having worked professionally in spaces closely adjacent to &ldquo;civic tech&rdquo; I will attempt to define civic tech, social impact tech, and public interest tech, through the lens of three projects of which I&rsquo;ve been a part: research at &ldquo;Civic Tech DC;&rdquo; social impact product development for CommCare (<a href="https://commcare.dimagi.com/">commcare.dimagi.com</a>); and experimentation at the City of Boston&rsquo;s <a href="https://www.boston.gov/departments/emerging-technology">Office of Emerging Technology</a>. All three of these efforts were united by a goal to deliver value to the &ldquo;public&rdquo; by using technology as a <strong>method &ndash;</strong> one which helped us deliver that value in ways that would be impossible, or at least very hard, to do without new technology. However, as I&rsquo;ll show below, each of these efforts defined &ldquo;value&rdquo; in different ways, and the people and communities that make up &ldquo;the public&rdquo; differ greatly in each situation.</p>
+          <p>Having worked professionally in spaces closely adjacent to &ldquo;civic tech&rdquo; I will attempt to define civic tech, social impact tech, and public interest tech, through the lens of three projects of which I&rsquo;ve been a part: research at &ldquo;Civic Tech DC;&rdquo; social impact product development for CommCare (<a href="https://commcare.dimagi.com/">commcare.dimagi.com</a>); and experimentation at the City of Boston&rsquo;s <a href="https://www.boston.gov/departments/emerging-technology">Office of Emerging Technology</a>. All three of these efforts were united by a goal to deliver value to the &ldquo;public&rdquo; by using technology as a <strong>method &ndash;</strong> one which helped us deliver that value in ways that would be impossible, or at least very hard, to do without new technology. However, as I&rsquo;ll show below, each of these efforts defined &ldquo;value&rdquo; in different ways, and the people and communities that make up &ldquo;the public&rdquo; differ greatly in each situation.</p>
 
-          <p class="indent">First, civic technology &ndash; in my experience, civic tech is not about building software that is used by or in government. Instead, it is about leveraging technology resources like software or data to shine a light on government&rsquo;s work or the needs of residents. As McGuinness and Schank point out, the Civic Tech space blossomed in the early 2000s with the rise of Open Data published by American municipalities. Many civic technologists leveraged this newly available data to show where governments were failing to deliver basic services to residents, through novel data analysis, engaging visualizations and data-forward story telling. I witnessed this firsthand while participating in Civic Tech DC&rsquo;s meetups in 2024. One of the group&rsquo;s members, Pete Rodrigue, produced an analysis of Open Data DC&rsquo;s traffic enforcement data to answer the question: &ldquo;What impact have DC&rsquo;s Automated Enforcement Traffic Cameras had on the city&rsquo;s road safety?&rdquo;</p>
+          <p>First, civic technology &ndash; in my experience, civic tech is not about building software that is used by or in government. Instead, it is about leveraging technology resources like software or data to shine a light on government&rsquo;s work or the needs of residents. As McGuinness and Schank point out, the Civic Tech space blossomed in the early 2000s with the rise of Open Data published by American municipalities. Many civic technologists leveraged this newly available data to show where governments were failing to deliver basic services to residents, through novel data analysis, engaging visualizations and data-forward story telling. I witnessed this firsthand while participating in Civic Tech DC&rsquo;s meetups in 2024. One of the group&rsquo;s members, Pete Rodrigue, produced an analysis of Open Data DC&rsquo;s traffic enforcement data to answer the question: &ldquo;What impact have DC&rsquo;s Automated Enforcement Traffic Cameras had on the city&rsquo;s road safety?&rdquo;</p>
 
             <img src="images/GGWash_Graph.png" alt="graph" width="624" height="621">
             <br>
@@ -193,11 +111,11 @@
 
           <p>Rodrigue&rsquo;s analysis and subsequent <a href="https://ggwash.org/view/97212/smile-youre-on-camera-a-deep-dive-on-automated-traffic-enforcement-data">OpEd article</a> leveraged a form of government transparency &ndash; in this case, Open Data DC &ndash; to analyze a topic of intense political interest and provide policy insights that were publicly-beneficial. In the case of Rodrigue&rsquo;s work with Civic Tech DC, what makes his use of technology &ldquo;civic&rdquo; is that it is contributing knowledge to the public sphere, on topics of immediate relevance to DC residents and politicians alike.</p>
 
-          <p class="indent">Social impact technology is, for me, harder to define &ndash; it brings to mind technical folks working for, or with, nonprofit institutions. Perhaps on topics that governments and the private sector have failed to address. In the late 2010s, I worked at a &ldquo;tech-for-good social enterprise&rdquo; called Dimagi, designing their <em>CommCare</em> software (a medical record system designed for low-resource communities without internet connectivity). The assumption in this space, which was crowded with Dimagi&rsquo;s competitors prior to the demise of USAID, was that governments in developing countries were not capable of producing (or procuring) effective health technology themselves, and so it needed to be built by outside consultants. Yet this work was funded by large donors, usually based in North America and Europe, meaning our tech team was accountable to the project funders &ndash; e.g. the Gates Foundation &ndash; not the governments deploying our medical records technology, nor the frontline workers using it in the field. Herein lies the inherent tension of &ldquo;social impact tech&rdquo; for me: ostensibly, the problem we at Dimagi were addressing was that frontline health workers lack good medical records tools. But the real issue we were touching on was the under-resourced governments that lacked the people or funding to manage their own health records system. The solution we developed, CommCare, was an excellent fit for the technical problem of medical records in low-resource settings; it was a terrible way, however, to address the latter issue of under-resourced governments. During my time at Dimagi, I often struggled with McGueiness and Harsh&rsquo;s notion that &ldquo;new tools won&rsquo;t fix a broken policy or a convoluted process, just as overlaying a microprocessor on top of a Rube Goldberg device won&rsquo;t make the device more efficient&rdquo; (Preface, xiii). Yet our technical team at Dimagi continued down this track because our success was, ultimately, judged by our funders rather than the frontline health workers or government IT managers that might have guided us in a different direction.</p>
+          <p>Social impact technology is, for me, harder to define &ndash; it brings to mind technical folks working for, or with, nonprofit institutions. Perhaps on topics that governments and the private sector have failed to address. In the late 2010s, I worked at a &ldquo;tech-for-good social enterprise&rdquo; called Dimagi, designing their <em>CommCare</em> software (a medical record system designed for low-resource communities without internet connectivity). The assumption in this space, which was crowded with Dimagi&rsquo;s competitors prior to the demise of USAID, was that governments in developing countries were not capable of producing (or procuring) effective health technology themselves, and so it needed to be built by outside consultants. Yet this work was funded by large donors, usually based in North America and Europe, meaning our tech team was accountable to the project funders &ndash; e.g. the Gates Foundation &ndash; not the governments deploying our medical records technology, nor the frontline workers using it in the field. Herein lies the inherent tension of &ldquo;social impact tech&rdquo; for me: ostensibly, the problem we at Dimagi were addressing was that frontline health workers lack good medical records tools. But the real issue we were touching on was the under-resourced governments that lacked the people or funding to manage their own health records system. The solution we developed, CommCare, was an excellent fit for the technical problem of medical records in low-resource settings; it was a terrible way, however, to address the latter issue of under-resourced governments. During my time at Dimagi, I often struggled with McGueiness and Harsh&rsquo;s notion that &ldquo;new tools won&rsquo;t fix a broken policy or a convoluted process, just as overlaying a microprocessor on top of a Rube Goldberg device won&rsquo;t make the device more efficient&rdquo; (Preface, xiii). Yet our technical team at Dimagi continued down this track because our success was, ultimately, judged by our funders rather than the frontline health workers or government IT managers that might have guided us in a different direction.</p>
 
-          <p class="indent">Public interest technology is the label under which I feel most professionally aligned. This summer I was a Technology Fellow at the City of Boston&rsquo;s Office of Emerging Technology. Our team developed tech-based products and services for the City&rsquo;s transportation planners and engineers. We chose projects that were less about IT-related services, in favor of those very focused on helping City staff better understand Boston residents and deliver to those residents better mobility insights and transportation data. Working within government at City Hall had two important impacts. First, because our work came from within municipal government, it was appointed officials &ndash; in our case Boston&rsquo;s CIO &ndash; who were ultimately accountable for the consequences (good or bad) of our work. The result was that our team worked extensively to ensure privacy protections were honored and legal guidance was followed, while plans were shared widely with many city departments and residents alike. Second, working within government allowed us to deeply understand the problem space and gave us direct provenance over the solutions we proposed &ndash; in a way that Dimagi never could (donors determined the problem) and that Civic Tech could only hope for (Civic Tech DC excelled at diagnosing the issues, but could not roll out new government tools or services).</p>
+          <p>Public interest technology is the label under which I feel most professionally aligned. This summer I was a Technology Fellow at the City of Boston&rsquo;s Office of Emerging Technology. Our team developed tech-based products and services for the City&rsquo;s transportation planners and engineers. We chose projects that were less about IT-related services, in favor of those very focused on helping City staff better understand Boston residents and deliver to those residents better mobility insights and transportation data. Working within government at City Hall had two important impacts. First, because our work came from within municipal government, it was appointed officials &ndash; in our case Boston&rsquo;s CIO &ndash; who were ultimately accountable for the consequences (good or bad) of our work. The result was that our team worked extensively to ensure privacy protections were honored and legal guidance was followed, while plans were shared widely with many city departments and residents alike. Second, working within government allowed us to deeply understand the problem space and gave us direct provenance over the solutions we proposed &ndash; in a way that Dimagi never could (donors determined the problem) and that Civic Tech could only hope for (Civic Tech DC excelled at diagnosing the issues, but could not roll out new government tools or services).</p>
 
-          <p class="indent">In summary, having touched each of these three fields personally, I would propose the following: Civic Tech is advocate-oriented, intended to shine a light (from the outside) on issues or opportunities related to government and the residents it serves. This hyper focus, however, leads Civic Tech to occasionally suffer from a narrow mindset defined by whoever is driving the project. Conversely, Social Impact Tech is intensely user and community-focused, but relies on outside talent or funding that can misdiagnose issues or design elegant solutions to superficial problems. Lastly, public interest tech is driven from within government, and consequently must deal with all the layers of bureaucracy that comes with it. But because of those layers, it has the potential to deliver at a much larger scale and with higher impact and greater durability.</p>
+          <p>In summary, having touched each of these three fields personally, I would propose the following: Civic Tech is advocate-oriented, intended to shine a light (from the outside) on issues or opportunities related to government and the residents it serves. This hyper focus, however, leads Civic Tech to occasionally suffer from a narrow mindset defined by whoever is driving the project. Conversely, Social Impact Tech is intensely user and community-focused, but relies on outside talent or funding that can misdiagnose issues or design elegant solutions to superficial problems. Lastly, public interest tech is driven from within government, and consequently must deal with all the layers of bureaucracy that comes with it. But because of those layers, it has the potential to deliver at a much larger scale and with higher impact and greater durability.</p>
 
           <h2>References</h2>
 
@@ -215,12 +133,12 @@
       </main>
 
       <footer class="pt-5 my-5 text-body-secondary border-top">
-        Created by Marshall Daly, DUSP MCP &copy; 2026
+        Created by Marshall Daly, MIT DUSP, MCP '27 | September 2026
       </footer>
     </div>
     <script
       src="assets/dist/js/bootstrap.bundle.min.js"
-      class="astro-vvvwv3sm"
+     
     ></script>
   </body>
 </html>
